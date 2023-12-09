@@ -1,0 +1,68 @@
+
+.container{
+    height: 100px;
+}
+.image{
+   background-image: url(./pic/lumlogo.jpg);
+   background-size: cover;
+   width: 236px;
+   height: 66px;
+}
+
+.heading h1
+
+{
+ float: left;
+
+}
+.heading p
+{
+    float: left;
+     margin-bottom: 90px; 
+     text-align: left;
+    }
+    .btn1{
+        background-color: blueviolet;
+         border-radius: 50px;
+          border: none; 
+          margin-top: auto;
+          float: left;
+           height: 55px;
+            width: 138px; 
+            color: aliceblue; 
+    }
+
+
+@media(max-width:767px)
+{
+    
+    .image{
+    
+        width: 232px;
+        height: 62px;
+    }
+    .main{
+        margin-top: 119px;
+    }
+    .btn1{
+        height: 30px;
+        width: 80px;
+        margin-bottom: auto;
+        text-align: center;
+        font-size:10px;
+    }
+
+    
+    .heading{
+        margin-top: auto;
+        float: left;
+        font-size: 9px;
+        color: #efe3e3;
+        height: 100px;
+    }
+    .heading h1{
+        font-size: medium;
+    }
+    }
+    
+    
