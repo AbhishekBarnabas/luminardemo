@@ -77,7 +77,127 @@
 }
 
 }
+section1{
+    position:relative;
+    background-color: rgb(255, 255, 255);
+}
+section1 h1{
+    text-align: center;
+    color: blueviolet;
+    
+}
+span{
+    color: rgb(186, 123, 246);
+}
+#sec{
+    height: auto;
+    width: auto;
+    text-align: center;
+}
 
+   .row {
+        height: auto;
+       
+        margin: auto;
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        flex-wrap: wrap;}
+
+    /* .column {
+        width: 70%;
+        padding: 20px;
+        box-sizing: border-box;
+    }
+
+    .left-column {
+        margin-right: 5%;
+    }
+
+    .right-column {
+        margin-left: 5%;
+    } */
+.pc{
+    margin: auto;
+    align-content: center;
+    height: auto;
+    width:63%;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    background-color: white;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+            transition: transform 0.3s ease-in-out;
+
+}
+.pc:hover {
+    transform: scale(1.1);
+}
+.pc h3{
+    color: blueviolet;
+    font-size: 18px;
+}
+   
+    .image2 {
+        width: 611px;
+        height: 363px;
+        background-image: url(./pic/ds.jpg);
+        background-size: cover;
+        margin-right: -17px;
+        float: right;
+     
+    }
+      
+    .para{
+
+        font-size: 13px;
+    }
     
     
-    
+    @media(max-width:767px)
+    {
+        .pc{
+width:395px;
+        }
+        .row{
+            width: 547px;
+
+        }
+        .image2{
+            padding: 23%;
+            width: 383px;
+            height: 200px;
+        }
+        .para{
+            padding:10px;
+        }
+    }
+    .abcd{
+        position: relative;
+    }
+    .second{
+        width:80%;
+        display: flex;
+        margin: auto;
+        
+    }
+    .card{
+
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.3);
+        transition: transform 0.3s ease-in-out;
+        width: 30%;
+        margin-top: 16px;
+    }
+    .card:hover {
+        transform: scale(1.1);
+    }
+    .carbo{
+        padding: 0px;
+    }
+    .carbo p{
+        padding:0px;
+    }
+    one{
+
+    }
